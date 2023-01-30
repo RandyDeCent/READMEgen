@@ -20,7 +20,7 @@ const index = require('../index.js');
 // If there is no license, it returns an empty string
 function renderLicenseBadge(license) {
   let badge = '';
-  if(license === 'MIT') {
+  if(license === 'Randy') {
       badge = '![GitHub license]()'
   } else if (license === 'Apache 2.0') {
       badge = '![License]()'
